@@ -2,6 +2,11 @@
 import { computed, ref, onMounted } from 'vue'
 import { useRuntimeConfig } from 'nuxt/app'
 
+defineProps<{
+  window?: any
+  config?: any
+}>()
+
 const runtimeConfig = useRuntimeConfig()
 
 const hostname = ref('')
@@ -24,7 +29,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <WindowIframe
+  <DesktopWindowIframe
+    :window="window"
+    :config="config"
     :src="twitchEmbedUrl"
   />
 </template>
