@@ -23,6 +23,12 @@ export default {
       command: 'twitch-chat',
     },
   },
+  terminal: {
+    'twitch-chat': {
+      description: 'Open Twitch chat reader',
+      usage: 'twitch-chat',
+    },
+  },
   commands: {
     'twitch-chat': (app: IApplicationController) => {
       app.openWindow('main')
