@@ -49,11 +49,11 @@
   "dependencies": {
     "@nuxt/kit": "^4.4.6",
     "@owdproject/kit-tailwind": "workspace:*",
-    "nuxt-desktop": "workspace:*"
+    "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "peerDependencies": {
     "@owdproject/core": ">=4.0.0-alpha.0",
-    "nuxt-desktop": ">=1.0.0"
+    "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "devDependencies": {
     "@owdproject/core": "workspace:*",
