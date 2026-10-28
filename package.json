@@ -1,6 +1,6 @@
 {
   "name": "@owdproject/app-twitch-chat",
-  "version": "0.0.1",
+  "version": "4.0.0-alpha.3",
   "description": "Twitch Chat App for your Open Web Desktop client",
   "keywords": [
     "owd-client",
@@ -48,15 +48,15 @@
   },
   "dependencies": {
     "@nuxt/kit": "^4.4.6",
-    "@owdproject/kit-tailwind": "workspace:*",
+    "@owdproject/kit-tailwind": "^4.0.0-alpha.3",
     "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "peerDependencies": {
-    "@owdproject/core": ">=4.0.0-alpha.0",
+    "@owdproject/core": "^4.0.0-alpha.3",
     "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "devDependencies": {
-    "@owdproject/core": "workspace:*",
+    "@owdproject/core": "^4.0.0-alpha.3",
     "@nuxt/devtools": "^3.2.4",
     "@nuxt/eslint-config": "^1.15.2",
     "@nuxt/module-builder": "^1.0.2",
@@ -69,5 +69,10 @@
     "typescript": "~6.0.3",
     "vitest": "^4.1.7",
     "vue-tsc": "^3.3.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "alpha",
+    "registry": "https://registry.npmjs.org/"
   }
 }

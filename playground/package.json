@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@owdproject/app-twitch-chat": "workspace:*",
-    "@owdproject/core": "workspace:*",
-    "@owdproject/theme-nova": "workspace:*"
+    "@owdproject/core": "^4.0.0-alpha.3",
+    "@owdproject/theme-nova": "^4.0.0-alpha.3"
   }
 }
