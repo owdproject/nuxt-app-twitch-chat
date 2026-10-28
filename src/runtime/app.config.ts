@@ -30,7 +30,7 @@ export default {
     },
   },
   commands: {
-    'twitch-chat': (app: IApplicationController) => {
+    'twitch-chat': (app: any) => {
       app.openWindow('main')
     },
   },
