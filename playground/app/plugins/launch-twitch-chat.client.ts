@@ -49,7 +49,7 @@ export default defineNuxtPlugin({
       }
 
       console.warn(
-        '[app-twitch-chat playground] Twitch Chat app was not registered — check @owdproject/app-twitch-chat plugin.',
+        '[app-twitch-chat playground] Twitch Chat app was not registered — check @owdproject/app-nuxt-twitch-chat plugin.',
       )
     })
   },
