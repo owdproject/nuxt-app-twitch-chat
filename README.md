@@ -15,7 +15,7 @@ This app for Open Web Desktop implements the Twitch chat.
 ## Installation
 
 ```bash
-owd install-app @owdproject/app-nuxt-twitch-chat
+owd install-app @owdproject/nuxt-app-twitch-chat
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ owd install-app @owdproject/app-nuxt-twitch-chat
 ```ts
 export default defineDesktopConfig({
   apps: [
-    '@owdproject/app-nuxt-twitch-chat'
+    '@owdproject/nuxt-app-twitch-chat'
   ],
   twitchChat: {
     username: 'dxlliv',

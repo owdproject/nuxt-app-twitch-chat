@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/app-nuxt-twitch-chat-playground",
+  "name": "@owdproject/nuxt-app-twitch-chat-playground",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,8 +8,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@owdproject/app-nuxt-twitch-chat": "workspace:*",
+    "@owdproject/nuxt-app-twitch-chat": "workspace:*",
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/theme-nuxt-nova": "^4.0.0-alpha.3"
+    "@owdproject/nuxt-theme-nova": "^4.0.0-alpha.3"
   }
 }
