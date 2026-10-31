@@ -8,8 +8,12 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@owdproject/nuxt-app-twitch-chat": "workspace:*",
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/nuxt-theme-paper": "^4.0.0-alpha.3"
+    "@owdproject/nuxt-app-twitch-chat": "workspace:*",
+    "@owdproject/nuxt-theme-paper": "^4.0.0-alpha.3",
+    "jiti": "^2.6.1",
+    "primevue": "^4.5.5",
+    "tailwindcss": "^3.4.19",
+    "vue-i18n": "^11.0.0"
   }
 }
