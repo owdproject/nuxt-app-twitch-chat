@@ -10,6 +10,6 @@
   "dependencies": {
     "@owdproject/nuxt-app-twitch-chat": "workspace:*",
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/nuxt-theme-nova": "^4.0.0-alpha.3"
+    "@owdproject/nuxt-theme-paper": "^4.0.0-alpha.3"
   }
 }

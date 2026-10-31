@@ -1,7 +1,7 @@
 import { defineDesktopConfig } from '@owdproject/nuxt'
 
 export default defineDesktopConfig({
-  theme: '@owdproject/nuxt-theme-nova',
+  theme: '@owdproject/nuxt-theme-paper',
   apps: ['@owdproject/nuxt-app-twitch-chat'],
   modules: [],
   systemBar: {
